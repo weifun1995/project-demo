@@ -1,0 +1,33 @@
+{
+  "name": "vite-admin-web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@bytemd/vue-next": "^1.17.2",
+    "axios": "^0.27.2",
+    "bytemd": "^1.17.2",
+    "docxtemplater": "^3.31.3",
+    "echarts": "^5.3.3",
+    "file-saver": "^2.0.5",
+    "jszip-utils": "^0.1.0",
+    "juejin-markdown-themes": "^1.29.3",
+    "pinia": "^2.0.22",
+    "pizzip": "^3.1.1",
+    "tdesign-vue-next": "^0.20.4",
+    "vue": "^3.2.37",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.15",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vue-tsc": "^0.40.4"
+  }
+}
